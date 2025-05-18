@@ -1,2 +1,4 @@
 # LowThrustOrbitalTransferSimulator-
-Simulated a spacecraft spiraling out of LEO using constant low-thrust propulsion in MATLAB. Modeled orbital evolution to mimic ion/Hall thruster performance for orbital transfers.
+This self-directed project involved developing a simulation of a spacecraft spiraling out of low Earth orbit using constant low-thrust propulsion. Inspired by my coursework in electric propulsion and astrodynamics, I used MATLAB to numerically integrate the spacecraft's motion and model how its orbit evolves over time under continuous acceleration. The simulation aimed to mimic the real-life performance of ion engines or Hall thrusters used in satellite orbital transfer maneuvers.
+
+The goal was to build a physics-based model of a low-thrust trajectory, accounting for variable mass and gravitational changes over time. I wanted to explore how long it would take a spacecraft to escape Earth’s gravity using a constant but small thrust, and how much delta-V it would require compared to impulsive burns. This required solving the equations of motion using Runge-Kutta integration while continuously applying the rocket equation in small time steps.
